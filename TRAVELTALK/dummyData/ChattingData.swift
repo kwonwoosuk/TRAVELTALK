@@ -30,7 +30,13 @@ struct ChatRoom {
     func isIncludedUserName(_ searchText: String) -> Bool {
         return chatList.contains { $0.user.rawValue.contains(searchText) }
     }
+    var lastDate: String? {
+        return chatList.last?.date
+    }
     
+    var lastMessage: String? {
+        return chatList.last?.message
+    }
 }
 
 //채팅 화면에서 사용할 데이터 구조체

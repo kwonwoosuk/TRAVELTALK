@@ -17,16 +17,16 @@
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="XOZ-at-msI">
-                        <rect key="frame" x="104" y="33.333333333333343" width="231" height="40.666666666666657"/>
+                        <rect key="frame" x="104" y="33.333333333333343" width="229" height="40.666666666666657"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4pc-kn-Zse">
-                                <rect key="frame" x="0.0" y="0.0" width="231" height="20.333333333333332"/>
+                                <rect key="frame" x="0.0" y="0.0" width="229" height="20.333333333333332"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t83-Ch-F2D">
-                                <rect key="frame" x="0.0" y="20.333333333333329" width="231" height="20.333333333333329"/>
+                                <rect key="frame" x="0.0" y="20.333333333333329" width="229" height="20.333333333333329"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -34,9 +34,9 @@
                         </subviews>
                     </stackView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TWQ-5p-Veb">
-                        <rect key="frame" x="351" y="15.999999999999998" width="44" height="20.333333333333329"/>
+                        <rect key="frame" x="349" y="15.999999999999998" width="60" height="20.333333333333329"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="44" id="qXd-GA-RjX"/>
+                            <constraint firstAttribute="width" constant="60" id="qXd-GA-RjX"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
@@ -73,7 +73,6 @@
                 </subviews>
             </view>
             <viewLayoutGuide key="safeArea" id="0o6-Fm-OWZ"/>
-            <color key="backgroundColor" red="0.77254903320000001" green="0.84705877299999999" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
             <constraints>
                 <constraint firstItem="TWQ-5p-Veb" firstAttribute="leading" secondItem="XOZ-at-msI" secondAttribute="trailing" constant="16" id="4Rc-3y-V0d"/>
                 <constraint firstItem="TWQ-5p-Veb" firstAttribute="leading" secondItem="XOZ-at-msI" secondAttribute="trailing" constant="16" id="Cps-Yk-pSA"/>
@@ -84,7 +83,7 @@
                 <constraint firstItem="oi8-eP-yr7" firstAttribute="leading" secondItem="Daq-fq-bLy" secondAttribute="trailing" constant="8" id="i1f-ff-Bg9"/>
                 <constraint firstItem="XOZ-at-msI" firstAttribute="leading" secondItem="oi8-eP-yr7" secondAttribute="trailing" constant="16" id="iwY-ht-psK"/>
                 <constraint firstItem="XOZ-at-msI" firstAttribute="centerY" secondItem="qnv-OW-Hir" secondAttribute="centerY" id="ixO-F4-h14"/>
-                <constraint firstAttribute="trailing" secondItem="TWQ-5p-Veb" secondAttribute="trailing" constant="30" id="j6b-vy-8ug"/>
+                <constraint firstAttribute="trailing" secondItem="TWQ-5p-Veb" secondAttribute="trailing" constant="16" id="j6b-vy-8ug"/>
                 <constraint firstItem="Daq-fq-bLy" firstAttribute="leading" secondItem="qnv-OW-Hir" secondAttribute="leading" constant="20" id="mfg-bw-7kR"/>
                 <constraint firstAttribute="bottom" secondItem="Daq-fq-bLy" secondAttribute="bottom" constant="30" id="ns2-QV-xF5"/>
                 <constraint firstAttribute="bottom" secondItem="oi8-eP-yr7" secondAttribute="bottom" constant="30" id="oCe-n7-16O"/>
