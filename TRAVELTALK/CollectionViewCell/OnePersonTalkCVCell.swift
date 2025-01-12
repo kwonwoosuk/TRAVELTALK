@@ -42,10 +42,9 @@ class OnePersonTalkCVCell: UICollectionViewCell {
     func configure(with chatRoom: ChatRoom) {
         
         userImageView.image = UIImage(named: chatRoom.chatroomImage[0])
-        
         userNameLabel.text = chatRoom.chatroomName
         
-        if let lastChat = chatRoom.chatList.last { // 마지막 대화 날짜만 보여주기
+        if let lastChat = chatRoom.chatList.last{ // 마지막 대화 날짜만 보여주기
             userMessageLabel.text = lastChat.message
             dateLabel.text = formatDate(lastChat.date)
         }
@@ -58,7 +57,7 @@ class OnePersonTalkCVCell: UICollectionViewCell {
             return nil
         }
         
-        dateFormatter.dateFormat = "yy/MM/dd"
+        dateFormatter.dateFormat = "yy.MM.dd"
         return dateFormatter.string(from: date)
     }
 }

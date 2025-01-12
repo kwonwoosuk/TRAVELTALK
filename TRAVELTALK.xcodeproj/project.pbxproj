@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4DA600202D33B547001B9357 /* UserChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA6001E2D33B547001B9357 /* UserChatTableViewCell.swift */; };
-		4DA600212D33B547001B9357 /* UserChatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DA6001F2D33B547001B9357 /* UserChatTableViewCell.xib */; };
-		4DA600242D33B557001B9357 /* FriendsCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA600222D33B557001B9357 /* FriendsCellTableViewCell.swift */; };
-		4DA600252D33B557001B9357 /* FriendsCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DA600232D33B557001B9357 /* FriendsCellTableViewCell.xib */; };
+		4DA600202D33B547001B9357 /* FriendVCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA6001E2D33B547001B9357 /* FriendVCCell.swift */; };
+		4DA600212D33B547001B9357 /* FriendVCCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DA6001F2D33B547001B9357 /* FriendVCCell.xib */; };
+		4DA600242D33B557001B9357 /* UserVCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA600222D33B557001B9357 /* UserVCCell.swift */; };
+		4DA600252D33B557001B9357 /* UserVCCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DA600232D33B557001B9357 /* UserVCCell.xib */; };
 		4DA6FE3B2D32AA4E001B9357 /* ChattingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA6FE2D2D32AA4E001B9357 /* ChattingData.swift */; };
 		4DA6FE3C2D32AA4E001B9357 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA6FE2F2D32AA4E001B9357 /* AppDelegate.swift */; };
 		4DA6FE3D2D32AA4E001B9357 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA6FE362D32AA4E001B9357 /* MainViewController.swift */; };
@@ -30,10 +30,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4DA6001E2D33B547001B9357 /* UserChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserChatTableViewCell.swift; sourceTree = "<group>"; };
-		4DA6001F2D33B547001B9357 /* UserChatTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserChatTableViewCell.xib; sourceTree = "<group>"; };
-		4DA600222D33B557001B9357 /* FriendsCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsCellTableViewCell.swift; sourceTree = "<group>"; };
-		4DA600232D33B557001B9357 /* FriendsCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendsCellTableViewCell.xib; sourceTree = "<group>"; };
+		4DA6001E2D33B547001B9357 /* FriendVCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendVCCell.swift; sourceTree = "<group>"; };
+		4DA6001F2D33B547001B9357 /* FriendVCCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendVCCell.xib; sourceTree = "<group>"; };
+		4DA600222D33B557001B9357 /* UserVCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVCCell.swift; sourceTree = "<group>"; };
+		4DA600232D33B557001B9357 /* UserVCCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserVCCell.xib; sourceTree = "<group>"; };
 		4DA6FDE42D329D5D001B9357 /* TRAVELTALK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRAVELTALK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DA6FE2D2D32AA4E001B9357 /* ChattingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChattingData.swift; sourceTree = "<group>"; };
 		4DA6FE2F2D32AA4E001B9357 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -68,10 +68,10 @@
 		4DA6001D2D33B517001B9357 /* chatCell */ = {
 			isa = PBXGroup;
 			children = (
-				4DA6001E2D33B547001B9357 /* UserChatTableViewCell.swift */,
-				4DA6001F2D33B547001B9357 /* UserChatTableViewCell.xib */,
-				4DA600222D33B557001B9357 /* FriendsCellTableViewCell.swift */,
-				4DA600232D33B557001B9357 /* FriendsCellTableViewCell.xib */,
+				4DA6001E2D33B547001B9357 /* FriendVCCell.swift */,
+				4DA6001F2D33B547001B9357 /* FriendVCCell.xib */,
+				4DA600222D33B557001B9357 /* UserVCCell.swift */,
+				4DA600232D33B557001B9357 /* UserVCCell.xib */,
 			);
 			path = chatCell;
 			sourceTree = "<group>";
@@ -198,8 +198,8 @@
 				4DA6FE402D32AA4E001B9357 /* Assets.xcassets in Resources */,
 				4DA6FE422D32AA4E001B9357 /* LaunchScreen.storyboard in Resources */,
 				4DA6FE4A2D32AA8D001B9357 /* TwoPersonTalkCVCell.xib in Resources */,
-				4DA600252D33B557001B9357 /* FriendsCellTableViewCell.xib in Resources */,
-				4DA600212D33B547001B9357 /* UserChatTableViewCell.xib in Resources */,
+				4DA600252D33B557001B9357 /* UserVCCell.xib in Resources */,
+				4DA600212D33B547001B9357 /* FriendVCCell.xib in Resources */,
 				4DA6FE432D32AA4E001B9357 /* Main.storyboard in Resources */,
 				4DA6FE442D32AA4E001B9357 /* OnePersonTalkCVCell.xib in Resources */,
 				4DA6FE532D32AAB0001B9357 /* FourPersonTalkCVCell.xib in Resources */,
@@ -218,9 +218,9 @@
 				4DA6FE3C2D32AA4E001B9357 /* AppDelegate.swift in Sources */,
 				4DA6FE3D2D32AA4E001B9357 /* MainViewController.swift in Sources */,
 				4DA6FE3E2D32AA4E001B9357 /* OnePersonTalkCVCell.swift in Sources */,
-				4DA600242D33B557001B9357 /* FriendsCellTableViewCell.swift in Sources */,
+				4DA600242D33B557001B9357 /* UserVCCell.swift in Sources */,
 				4DA6FE522D32AAB0001B9357 /* FourPersonTalkCVCell.swift in Sources */,
-				4DA600202D33B547001B9357 /* UserChatTableViewCell.swift in Sources */,
+				4DA600202D33B547001B9357 /* FriendVCCell.swift in Sources */,
 				4DA6FE4B2D32AA8D001B9357 /* TwoPersonTalkCVCell.swift in Sources */,
 				4DA6FE772D32B861001B9357 /* ChatViewController.swift in Sources */,
 				4DA6FE3F2D32AA4E001B9357 /* SceneDelegate.swift in Sources */,

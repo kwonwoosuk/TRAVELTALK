@@ -81,7 +81,7 @@ class ThreePersonTalkCVCell: UICollectionViewCell {
             return nil
         }
         
-        dateFormatter.dateFormat = "yy/MM/dd"
+        dateFormatter.dateFormat = "yy.MM.dd"
         return dateFormatter.string(from: date)
     }
 }
